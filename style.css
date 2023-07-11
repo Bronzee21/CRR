@@ -1,0 +1,437 @@
+@import url(https://fonts.google.com/specimen/Playfair+Display?preview.text=TURNOS&preview.text_type=custom);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+
+}
+
+.nav-links {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-menu:hover {
+  transform: scale(1.1);
+}
+
+.nav-item {
+  
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #2057aa;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: serif;
+  margin: 0 10px;
+  font-weight: 400;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px;
+  margin-left: -100px;
+  
+}
+
+
+
+
+.nav-item:hover {
+  color: #2057aa;
+}
+
+
+
+
+.nav-item:hover {
+  color: #3791c3;
+}
+
+/*logo*/
+
+.logoprincipal {
+  margin-left: 60px;
+  margin-top: 10px;
+  /*transition: all .3s;*/
+}
+
+
+
+.logo {
+  cursor: pointer;
+  margin-left: 70px;
+  display: flex;
+}
+
+.imagen {
+  height: 75px;
+  margin: 10px;
+  transition: all 0.3s;
+}
+
+.imagen:hover {
+  transform: scale(1.2);
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(imageen/prueba-de-esfuerzo.jpeg) 50% 0 fixed;
+  background-size: cover;
+  min-height: 650px;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 0px;
+}
+
+h1 {
+  color: #fff;
+
+  text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 2px 2px 3px #4e4e4e;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -40px;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.main-padre {
+  background: linear-gradient(rgba(55, 59, 68, 0.4), rgba(66, 134, 244, 0.4)),
+    url(imageen/healthcare.jpg) 50% 0 fixed;
+  background-size: cover;
+  min-height: 650px;
+  margin: 100px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.opciones {
+  width: 400px;
+  height: 500px;
+  margin-top: 75px;
+  border: 7px solid #3791c3;
+  background-color: #D5DBDB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+
+
+
+
+.opcion1 {
+  width: 100%;
+  text-align: center;
+  height: 90px;
+  font-size: 16px;
+  margin-top: -50px;
+  color: #4e4e4e;
+}
+.opcion2 {
+  width: 100%;
+  text-align: center;
+
+  font-size: 20px;
+  margin-top: 10px;
+}
+.img-opciones {
+  width: 100%;
+}
+.img-opciones2 {
+  width: 100%;
+  height: 45%;
+}
+.h3m {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 15px;
+}
+
+.h3k {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 15px;
+}
+
+.h3t {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 15px;
+}
+
+.h3c {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 15px;
+}
+
+.h3p {
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 15px;
+}
+.boton-opcion {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3791c3;
+  box-shadow: 2px 3px 3px black;
+  text-align: center;
+  text-decoration: none;
+  width: 40%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.boton-opcion:active {
+  box-shadow: 0px 0px darkgray;
+  transform: translate(3px, 2px);
+  color: white;
+}
+/*seccion 2*/
+
+.seccion2 {
+  width: 100%;
+  height: 100px;
+  margin-top: -100px;
+}
+  
+
+
+
+
+.container_about {
+  text-align: center;
+  
+  width: 100%;
+  height: 500px;
+  background-color: #3791c3;
+ 
+}
+
+.h3s{ 
+  font-size: 40px;
+  padding: 40px;
+  color: #ffffff;
+
+
+}
+
+.about_section{
+  padding-top: 40px;
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  gap: 0.5em;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit,minmax(260px, auto));
+}
+
+.barra{
+  width: 465px;
+  height: 4px;
+  background-color: #ffffff;
+  position: relative;
+  margin: -20px 0px 10px 0;
+  left: 479px;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.about_icons{
+  display: grid;
+  gap: 0em;
+  justify-items: center;
+  width: 300px;
+  overflow: hidden;
+  
+}
+.about_iconcal{
+  width: 80px;
+  margin: 25px;
+}
+.about_iconcal:hover {
+  transform: scale(1.2);
+}
+.about_iconesp{
+  width: 100px;
+  margin: 15px;
+}
+.about_iconesp:hover {
+  transform: scale(1.2);
+}
+.about_iconcon{
+  width: 160px;
+  margin-top: -25px;
+}
+.about_iconcon:hover {
+  transform: scale(1.2);
+}
+.about_iconenf{
+  width: 150px;
+  margin-top: -20px;
+  
+}
+.about_iconenf:hover {
+  transform: scale(1.1);
+}
+.about_title{
+  font-size: 20px;
+  color: #ffffff;
+  font: 1.1em Verdana;
+}
+
+
+.seccion3 {
+  width: 100%;
+  height: 150px;
+  margin-top: -100px;
+
+}
+.ubi{
+  font-size: 35px;
+  padding: 50px;
+  margin-top: 90px;
+  color: #000000;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+  
+.barra2{
+  width: 300px;
+  height: 4px;
+  background-color: #000000;
+  position: relative;
+  margin: -40px 0px 0px 0px;
+  left: 560px;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.about_mapa {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(imageen/ubicacion.jpeg) 50% 0 local;
+  background-size: cover;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  }
+
+
+
+
+/*footer*/
+
+footer {
+  background-color: #ffffff;
+  height: 100px;
+  display: flex;
+
+  align-items: center;
+  padding: 0px 40px;
+}
+.descripcion-footer{
+  display: flex;
+  margin-left: 150px;
+}
+
+
+
+.redes a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.footer-izq {
+  display: flex;
+
+  width: 300px;
+  height: 60px;
+}
+
+.titulo-footer {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #000;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-item {
+    margin-left: -10px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .logoprincipal {
+    margin-left: 5px;
+  }
+  .header {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .opciones {
+    width: 300px;
+    height: 400px;
+  }
+
+  .logo {
+    margin-left: -20px;
+  }
+
+  /*.titulo-footer {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .footer-izq {
+    display: block;
+    width: 150px;
+    height: 30px;
+  }*/
+  .descripcion-footer {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+   } 
